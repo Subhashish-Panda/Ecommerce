@@ -8,3 +8,6 @@ iii)Open the phpMyAdmin and create a database "ecommerce".
 iv)Import the ecommerce.sql file present in the repo. ,to this created "ecommerce" database.
 v)Open the www folder in the wamp64 folder. Copy paste the folder Ecommerce.
 vi)Open the browser (chrome), type localhost/Ecommerce and you should see the index page of the website.
+
+# Working URL
+I have also hosted this website using 000webshost.com,the public url is https://neologic-guests.000webhostapp.com/
