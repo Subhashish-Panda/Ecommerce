@@ -1,12 +1,2 @@
-# About this website->
-
-
-
-
-# Setup of project->
-1.) Start the Apache and MySQL modules using the WAMP controller.
-2.) Open the phpMyAdmin and create a database "ecommerce". 
-3.) Import the ecommerce.sql file present in the repository,to this created "ecommerce" database.
-4.) Copy and paste all the files present in this repository,in a separate folder named "Ecommerce".
-5.) Open the www folder in the wamp64 folder.Place this folder "Ecommerce" inside the www folder.
-6.) Open the browser (chrome), type localhost/Ecommerce and you should see the index page of the website.
+# About this website
+This website is completely built from scratch.For front-end purpose HTML,CSS,Bootstrap,JavaScript were used and for back-end purpose PHP,Mysql were used.This project consists of lot of interesting functionalities like-Login functionality,SignUp functionality,Remember-Me option in login,Choose product functionality,Add-to-cart functionality,Remove-from-cart functionality,Show purchases functionality,Change password functionality,Confirm Order functionality etc.Regarding security:all sorts of form-validations,redirects and form-injection are taken care of in backend.
