@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.php.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/php-project/1">
+            <name>Ecommerce</name>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>DSLR</word>
+            <word>EOS</word>
+            <word>Faber</word>
+            <word>gmail</word>
+            <word>HMT</word>
+            <word>Jhalsani</word>
+            <word>Luba</word>
+            <word>Mypurchases</word>
+            <word>OnePlus</word>
+            <word>php</word>
+            <word>Signup</word>
+            <word>subhashish</word>
+            <word>Zok</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>
