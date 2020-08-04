@@ -1,4 +1,9 @@
-# Ecommerce
+# About this website->
+
+
+
+
+# Setup of project->
 1.) Start the Apache and MySQL modules using the WAMP controller.
 2.) Open the phpMyAdmin and create a database "ecommerce". 
 3.) Import the ecommerce.sql file present in the repository,to this created "ecommerce" database.
