@@ -5,6 +5,6 @@ This website is completely built from scratch.For front-end purpose HTML,CSS,Boo
 i)Copy all the content of repo. in a folder named "Ecommerce".
 ii)Start the Apache and MySQL modules using the WAMP controller.
 iii)Open the phpMyAdmin and create a database "ecommerce". 
-iv)Import the ecommerce.sql file present in the zip folder,to this created "ecommerce" database.
+iv)Import the ecommerce.sql file present in the repo. ,to this created "ecommerce" database.
 v)Open the www folder in the wamp64 folder. Copy paste the folder Ecommerce.
 vi)Open the browser (chrome), type localhost/Ecommerce and you should see the index page of the website.
