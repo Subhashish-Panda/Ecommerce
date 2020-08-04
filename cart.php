@@ -69,11 +69,11 @@ return $data;
             $cost=$row['price']*$row['quantity'];
             $id=$row['pid'];
             //Item Number-Item Name-Price -certain spaces-format.
-            echo "<tr><td>". "#" .$row['pid']. "</td><td>". $row['name'] ."</td><td>Rs " . $row['price']."<b>x</b>".$row['quantity'] ."</td><td>" ."<form method=POST action=$page><select name=item_qua$id required><option value=1>1</option><option value=2>2</option><option value=3>3</option></select><button class=btn-info type=submit name=Submit$id>Add</button></form>" ."</td><td><a href='cart-remove.php?id={$row['pid']}' class='remove_item_link btn btn-danger btn-block'> Remove</a></td></tr>";
+            echo "<tr><td>". "#" .$row['pid']. "</td><td>". $row['name'] ."</td><td>Rs " . $row['price']."<b>x</b>".$row['quantity'] ."</td><td>" ."<form method=POST action=$page><select name=item_qua$id required><option value=1>1</option><option value=2>2</option><option value=3>3</option><option value=4>4</option><option value=5>5</option></select><button class=btn-info type=submit name=Submit$id>Add</button></form>" ."</td><td><a href='cart-remove.php?id={$row['pid']}' class='remove_item_link btn btn-danger btn-block'> Remove</a></td></tr>";
             if(isset($_POST["Submit$id"]))
             {
             $q= test_input($con,$_POST["item_qua$id"]); 
-            if($q==1||$q==2||$q==3)
+            if($q==1||$q==2||$q==3||$q==4||$q==5)
             {
             $up_query="Update users_items set quantity='$q' where user_id='$user_id' and item_id='$id'";
             mysqli_query($con, $up_query);$cost=$row['price']*$q;
